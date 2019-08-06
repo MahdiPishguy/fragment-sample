@@ -8,13 +8,8 @@ class ScreenSections extends StatefulWidget implements Fragment {
   State<ScreenSections> createState() => _ScreenSections();
 
   @override
-  String getName() {
-    return PageScreenSections;
-  }
-
-  @override
   String getRouteName() {
-    return null;
+    return PageScreenSections;
   }
 
   @override

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kelide_jazzb/screens/fragment_bloc/fragment.dart';
+import 'package:kelide_jazzb/screens/fragment_routes.dart';
 
 
 class ScreenPosts extends StatefulWidget implements Fragment {
@@ -8,7 +9,7 @@ class ScreenPosts extends StatefulWidget implements Fragment {
 
   @override
   String getRouteName() {
-    return null;
+    return PageScreenPosts;
   }
 
   @override
